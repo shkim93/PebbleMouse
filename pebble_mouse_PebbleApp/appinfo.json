@@ -1,0 +1,17 @@
+{
+  "uuid": "a163207f-967b-4d16-8c63-5fc899c73e4c",
+  "shortName": "pebble_mouse",
+  "longName": "pebble_mouse",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

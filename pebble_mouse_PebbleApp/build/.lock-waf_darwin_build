@@ -1,0 +1,8 @@
+argv = ['/Users/Jonny/pebble-dev/PebbleSDK-2.0.1/Pebble/waf', 'configure', 'build']
+environ = {'TERM_SESSION_ID': 'B6FD6DD3-88A1-4D46-AD3A-C04F59628F30', 'SSH_AUTH_SOCK': '/tmp/launch-wtVFSi/Listeners', 'PYTHONPATH': '/Users/Jonny/pebble-dev/PebbleSDK-2.0.1/bin/../.env/lib/python2.7/site-packages', 'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'TERM_PROGRAM_VERSION': '326', 'SHELL': '/bin/bash', 'LOGNAME': 'Jonny', 'USER': 'Jonny', 'HOME': '/Users/Jonny', 'PATH': '/Users/Jonny/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin:/usr/local/bin:/Users/Jonny/pebble-dev/PebbleSDK-2.0.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin', 'TMPDIR': '/var/folders/z_/x6612nq13xj2f23vvg2tx4s80000gn/T/', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/tmp/launch-N6e4f6/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '2', '__CF_USER_TEXT_ENCODING': '0x1F5:0:0', 'PWD': '/Users/Jonny/Desktop/Pebble/pebble_mouse', '_': '/Users/Jonny/pebble-dev/PebbleSDK-2.0.1/Pebble/waf', '__CHECKFIX1436934': '1'}
+files = ['/Users/Jonny/Desktop/Pebble/pebble_mouse/wscript']
+hash = 4672844372416070989
+options = {'files': '', 'jobs': 4, 'verbose': 0, 'nocache': False, 'progress_bar': 0, 'timestamp': None, 'distcheck_args': None, 'top': '', 'destdir': '', 'keep': 0, 'zones': '', 'debug': False, 'prefix': '/usr/local/', 'download': False, 'force': False, 'targets': '', 'out': ''}
+out_dir = '/Users/Jonny/Desktop/Pebble/pebble_mouse/build'
+run_dir = '/Users/Jonny/Desktop/Pebble/pebble_mouse'
+top_dir = '/Users/Jonny/Desktop/Pebble/pebble_mouse'
