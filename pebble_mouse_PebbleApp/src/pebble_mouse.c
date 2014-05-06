@@ -49,12 +49,16 @@ static void timer_callback(void *data) {
   snprintf(pikachu,22,"X,Y,Z: %d,%d,%d",i,j,k);
   text_layer_set_text(text_layer, pikachu);
 
+  int32_t u = ((i + 4000) * 10000) + (j + 4000);
+  
   app_message_outbox_begin(&iter);
-  if (app_message_outbox_begin(&iter) != APP_MSG_OK) {
-    return;
-  }
+  // if (app_message_outbox_begin(&iter) != APP_MSG_OK) {
+  //   return;
+  // }
 
-  dict_write_data(iter,25,pikachu,sizeof(pikachu));
+  //dict_write_cstring(iter,25,pikachu);
+  
+  dict_write_int32(iter, 25, u);
 
   app_message_outbox_send();
 
